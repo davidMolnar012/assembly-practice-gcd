@@ -1,11 +1,9 @@
 .code
 GCD_ASM proc
-
 	cmp rcx, 0
 	jbe Finished 
 	cmp rdx, 0
 	jbe Finished
-
 
 Loophead:
 	mov rax, rcx
