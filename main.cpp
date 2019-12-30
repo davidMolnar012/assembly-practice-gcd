@@ -21,7 +21,7 @@ int GCD(unsigned long long a, unsigned long long b) {
 }
 
 int main() {
-	cout << "GDC: " << GCD(110, 210) << endl;
-	cout << "GDC_ASM: " << GCD_ASM(110, 210) << endl;
+	cout << "GDC: " << GCD(202, 2) << endl;
+	cout << "GDC_ASM: " << GCD_ASM(202, 2) << endl;
 	return 0;
 }
